@@ -14,22 +14,23 @@
 <body>
 
 
-    <form id="demo-form" data-parsley-validate="">
+    <form id="demo-form">
+      <h1>Formulário</h1>
         <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
+          <label for="Email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="Email" required>
         </div>
         <div class="col-md-6">
-          <label for="inputName4" class="form-label">Nome</label>
-          <input type="text" class="form-control" id="inputName4">
+          <label for="Nome" class="form-label" required>Nome</label>
+          <input type="text" class="form-control" id="Nome" required>
         </div>
         <div class="col-md-6">
-            <label for="inputCpf4" class="form-label">Cpf</label>
-            <input type="cpf" class="form-control" id="inputCpf4">
+            <label for="Cpf" class="form-label">Cpf</label>
+            <input type="cpf" class="form-control" id="Cpf" minlength="1" maxlength="11" required >
           </div>
         <div class="col-md-6">
-          <label for="inputTel" class="form-label">Telefone</label>
-          <input type="tel" class="form-control" id="inputTel">
+          <label for="Tel" class="form-label">Telefone</label>
+          <input type="tel" class="form-control" id="Tel" minlength="1" maxlength="11" required>
         </div>
         <div class="col-12">
           <div class="form-check">

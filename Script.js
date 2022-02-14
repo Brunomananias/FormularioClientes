@@ -6,12 +6,14 @@ $("#demo-form").submit(function(e){
 });
 
 
+
+
 function CriarObjetoCliente() {
     var cliente = {
-      email: $("#inputEmail4").val(),
-      cpf: $("#inputCpf4").val(),   //Obtendo o valor do CPF e NOME da API//
-      nome: $("#inputName4").val(),
-      telefone: $("#inputTel").val(),
+      email: $("#Email").val(),
+      cpf: $("#Cpf").val(),   //Obtendo o valor do CPF e NOME da API//
+      nome: $("#Nome").val(),
+      telefone: $("#Tel").val(),
       
     };
     return cliente;
@@ -36,3 +38,5 @@ function CriarObjetoCliente() {
       });
     }
   
+
+   
