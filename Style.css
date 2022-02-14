@@ -1,0 +1,12 @@
+body{
+    background-image: linear-gradient(rgb(165, 141, 230), rgb(88, 103, 240), blue);
+}
+
+#demo-form{
+    background-color: white;
+    padding: 60px;
+    margin: 90px;
+    height: 445px;
+    
+}
+
