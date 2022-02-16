@@ -64,7 +64,7 @@ namespace ClientesProjeto.Conexoes
                     while (rdr.Read())
                     {
                         var cliente = new Entidades.Clientes();
-                        cliente.ID = Convert.ToInt32(rdr["ID"]);
+                        
                         cliente.Nome = rdr["Nome"].ToString();
                         cliente.Email = rdr["Email"].ToString();
                         cliente.Telefone = rdr["Telefone"].ToString();

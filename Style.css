@@ -1,12 +1,16 @@
 body{
-    background-image: linear-gradient(rgb(165, 141, 230), rgb(88, 103, 240), blue);
+   background-image: url(Imagens/imagem_formulario.jpg);
 }
 
 #demo-form{
     background-color: white;
-    padding: 40px;
-    margin: 90px;
-    height: 477px;
+    width: 500px; 
+    height: 500px; 
+    left: 48%; 
+    margin: -130px 0 0 -210px; 
+    padding:40px;
+    position: absolute; 
+    top: 35%; 
+    border-radius: 50px;
     
 }
-

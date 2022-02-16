@@ -21,7 +21,7 @@ namespace ClientesProjeto.Controllers
             _Sql.InserirClientes(cliente);
         }
 
-        [HttpGet("v1/Alunos")]
+        [HttpGet("v1/Clientes")]
         public List<Entidades.Clientes> ListarClientes()
         {
             return _Sql.ListarClientes();
